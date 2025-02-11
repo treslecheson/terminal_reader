@@ -23,7 +23,7 @@ starting_question = [
 result = prompt(starting_question)
 choice = result[0]
 
-start = -1
+start = 0
 for images in files2:
     start += 1
     if images == choice:
